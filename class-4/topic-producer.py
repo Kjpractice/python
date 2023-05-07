@@ -5,37 +5,37 @@ from server import channel
 QUEUES = [
     {
         "name": "queue-a",
-        "routing_key": "a"
+        "topic": "a"
     },
     {
         "name": "queue-b",
-        "routing_key": "b"
+        "topic": "b"
     },
     {
         "name": "queue-c",
-        "routing_key": "c"
+        "topic": "c"
     }
 ]
 
 EVENTS = [
     {
-        "routing_key": "a",
+        "topic": "a",
         "body": "event 1"
     },
     {
-        "routing_key": "b",
+        "topic": "b",
         "body": "event 1"
     },
     {
-        "routing_key": "c",
+        "topic": "c",
         "body": "event 1"
     },
     {
-        "routing_key": "a",
+        "topic": "a",
         "body": "event 2"
     },
     {
-        "routing_key": "b",
+        "topic": "b",
         "body": "event 2"
     }
 ]
